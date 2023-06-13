@@ -1,0 +1,7 @@
+tensorflow
+torch
+json
+soundfile
+numpy
+librosa
+warp_rnnt
