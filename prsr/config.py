@@ -1,5 +1,5 @@
 class_names = {
-    "person" : ["person","individual", "human", "man", "guy", "gentelman", "woman"],
+    "person" : ["person","individual", "human", "man", "guy", "gentelman", "woman", "boy", "girl", "dad", "father", "mother", "daddy", "policeman", "prisoner", "guy", "men", "character", "people", "gay", "lesbain"],
     "bicycle" : ["bicycle","bike"],
     "car" : ["car","automobile", "vehicle", "vehicle", "truck", "passenger car", "buggy", "chariot", "sedan", "taxi"],
     "motorbike" : ["motorbike","moped", "scooter", "motor scooter", "motorcycle"],
