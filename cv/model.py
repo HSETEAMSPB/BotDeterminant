@@ -1,9 +1,7 @@
-from config import *
-
-import tensorflow as tf
+from BotDeterminant.cv.config import *
 
 from itertools import repeat
-
+import tensorflow as tf
 from tensorflow.keras import Model
 from tensorflow.keras.layers import Add, Concatenate, Lambda, Conv2D, Input, LeakyReLU, UpSampling2D, ZeroPadding2D
 
