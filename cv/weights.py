@@ -1,5 +1,5 @@
-from config import *
-from model import YoloV3
+from BotDeterminant.cv.config import *
+from BotDeterminant.cv.model import YoloV3
 
 import os
 import subprocess
@@ -40,11 +40,6 @@ def load_darknet_weights(model, weights_file):
                         custom_layer.set_weights([custom_conv_weights])
                         custom_batch_norm.set_weights(custom_bn_weights)
 
-
-
-if not os.path.exists("checkpoints"):
-    subprocess.run(["wget", "https://pjreddie.com/media/files/yolov3.weights"])
-    subprocess.run(["mkdir", "checkpoints"])
     
 yolo_model = YoloV3(classes=num_classes)
 
