@@ -23,4 +23,4 @@ def cv_recognize(class_name, image):
             x2y2 = tuple((np.array(boxes[i][2:4]) * wh).astype(np.int32))
             img = cv2.rectangle(img, x1y1, x2y2, (255, 0, 221), 1)
 
-    cv2.imwrite('detected_{:}'.format(path), img)
+    cv2.imwrite('detected_{:}'.format(image), img)
