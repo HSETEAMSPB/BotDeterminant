@@ -5,11 +5,8 @@ import cv2
 import tensorflow as tf
 from PIL import Image
 
-path = "pic.jpg"
 
-def cv_recognize(class_name):
-    image = path
-
+def cv_recognize(class_name, image):
     img = tf.image.decode_image(open(image, 'rb').read(), channels=3)
     img = tf.expand_dims(img, 0)
     img = tf.image.resize(img, (size, size)) / 255
