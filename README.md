@@ -30,7 +30,8 @@ also you have a lot of configurations for modules (config.py files), so far they
 
 ### logs
 voice message:
-https://github.com/Nikait/BotDeterminant/assets/50284221/9944cd30-9d4e-44a4-b97a-3e0024e84b28
+<audio src="[путь_к_аудиофайлу.mp3](https://github.com/Nikait/BotDeterminant/assets/50284221/9944cd30-9d4e-44a4-b97a-3e0024e84b28)" controls>
+
 
 
 in/out images:
