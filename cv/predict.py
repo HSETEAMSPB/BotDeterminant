@@ -1,16 +1,13 @@
-from config import *
-from weights import yolo_model, load_darknet_weights
+from BotDeterminant.cv.config import *
+from BotDeterminant.cv.weights import yolo_model, load_darknet_weights
 
 import cv2
 import tensorflow as tf
 from PIL import Image
 
+path = "pic.jpg"
 
-path = "personwithcar.png"
-class_name = "[person, car]"
-
-
-if __name__ == "__main__":
+def cv_recognize(class_name):
     image = path
 
     img = tf.image.decode_image(open(image, 'rb').read(), channels=3)
@@ -30,6 +27,3 @@ if __name__ == "__main__":
             img = cv2.rectangle(img, x1y1, x2y2, (255, 0, 221), 1)
 
     cv2.imwrite('detected_{:}'.format(path), img)
-
-    detected = Image.open('detected_{:}'.format(path))
-    detected.show()
