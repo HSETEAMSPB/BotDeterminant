@@ -40,6 +40,10 @@ https://github.com/Nikait/BotDeterminant/assets/50284221/9944cd30-9d4e-44a4-b97a
   </audio>
 </figure>
 
+## Пример аудиосообщения
+
+[![Аудиосообщение](launch_files/2nd.png)](launch_files/launch_files_voice.mp3)
+
 
 <audio src="[путь_к_аудиофайлу.mp3](https://github.com/Nikait/BotDeterminant/assets/50284221/9944cd30-9d4e-44a4-b97a-3e0024e84b28)" controls>
 
